@@ -1,0 +1,87 @@
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 32px;
+}
+.subtitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: grey;
+}
+
+.route-btn {
+    background-color: #73bd80;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.route-btn:hover {
+    background-color: #17755e;
+    transition: all 0.2s ease-out;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.plantName {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    
+}
+
+.garden-list {
+    padding-top: 40px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.plantInfo {
+    background-color: #f4f4f4;
+    width: 60%;
+    padding: 20px;
+}
+
+.plant-card {
+    
+}
+
+.plantInfo-container {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.x-icon {
+    color: rgb(255, 95, 95);
+    padding-left: 20px;
+    
+}
+
+.garden-img {
+    width: 100%;
+}
+
+.img-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin:auto;
+}

@@ -1,0 +1,53 @@
+.plant-cell {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 255px;
+    height: 255px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.plant-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.add-btn {
+    font-size: 30px;
+    background-color: #73bd80;
+    border: none;
+    width: 37px;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+}
+
+.add-btn:hover {
+    background-color: #17755e;
+    transition: all 0.2s ease-out;
+}
+
+.btn-container {
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.plant-name {
+    padding-bottom: 10px;
+}
+
+.plant-img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
